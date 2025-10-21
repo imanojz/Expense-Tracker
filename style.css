@@ -1,0 +1,96 @@
+.box {
+    display: block;
+    width: 400px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding: 7px;
+}
+
+.box1 {
+    display: block;
+    height: 66px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px;
+    align-content: center;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+.content,
+.amount {
+    height: 30px;
+    width: 350px;
+}
+
+.btn {
+    width: 350px;
+    height: 34px;
+    color: white;
+    background: #52dcff;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box2 {
+    display: block;
+    width: 350px;
+    border: 1px;
+    margin: auto;
+}
+
+.box3 {
+    display: block;
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    border: 1px;
+    margin: auto;
+    margin-bottom: 0px;
+    align-content: end;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+aa {
+    display: block;
+    height: 26px;
+    border: 1px;
+    align-content: center;
+    font-weight: 600;
+}
+
+bb {
+    display: block;
+    height: 26px;
+    width: 122px;
+    border: 1px;
+    border-radius: 14px;
+    background: #ff0a0a;
+    padding: 3px;
+    font-size: 23px;
+    font-family: fantasy;
+    align-content: center;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    height: 34px;
+    width: 340px;
+    border: 1px;
+    margin: auto;
+    margin-top: 10px;
+    background: #c1c1c4;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
