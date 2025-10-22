@@ -23,15 +23,14 @@ AddItemBTN.addEventListener("click", function(){
         const p = document.createElement("p");
         const aa = document.createElement("aa");
         aa.setAttribute("doller", finalVal2);
-        aa.textContent = `${inpVal1 + ": $" + finalVal2}`;
+        aa.textContent = `${inpVal1 + ": ₹" + finalVal2}`;
         const bb = document.createElement("bb");
         bb.classList.add("delBTN");
-        const delIcon = document.createElement("i");
-        delIcon.className = "fas fa-trash-alt";
-        bb.append(delIcon);
+        const delImg = document.createElement("img");
+        delImg.setAttribute("src", "images/Delete.png");
+        bb.append(delImg);
         p.appendChild(aa);
         p.appendChild(bb);
-        //console.log(p);
 
         const box2 = document.querySelector(".box2");
         box2.appendChild(p);
@@ -39,16 +38,13 @@ AddItemBTN.addEventListener("click", function(){
         totalMoney.textContent = totalDollar;
 
         let delBTN = document.querySelectorAll(".delBTN");
-        delBTN.forEach(del => {
-            del.addEventListener("click", function(){
-                // console.log("Delete Button Working SuccessFully.");
-                let price = this.previousElementSibling;
-                let lossPrice = parseFloat(price.getAttribute("doller"));
-                console.log(`Total: ${totalDollar} and lossVal: ${lossPrice}`);
-                totalDollar = totalDollar - lossPrice;
-                totalMoney.textContent = totalDollar;
-                this.parentElement.remove();
-            }); 
+        bb.addEventListener("click", function(){
+            // console.log("Delete Button Working SuccessFully.");
+            let price = this.previousElementSibling;
+            let lossPrice = parseFloat(price.getAttribute("doller"));
+            totalDollar = totalDollar - lossPrice;
+            totalMoney.textContent = totalDollar;
+            this.parentElement.remove();
         });
     }
 });

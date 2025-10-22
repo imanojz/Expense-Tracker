@@ -18,7 +18,8 @@ p { display: flex ; height: 34px; width: 94%; border: 1px; margin: auto; backgro
 
 aa { display: block; height: 26px; border: 1px; color: var(--col1); align-content: center; text-transform: capitalize; }
 
-bb { display: block; height: 26px; width: 32px; border: 1px; border-radius: 18px; background-color: var(--btn2); color: var(--bg1); font-size: 14px; font-family: fantasy; align-content: center; cursor: pointer; }
+bb { display: block; height: 26px; width: 26px; border: 1px; border-radius: 18px; /*background-color: var(--btn2);*/ color: var(--bg1); font-size: 14px; font-family: fantasy; align-content: center; cursor: pointer; }
+img { height: 100%; width: 100%; }
 
 .box3 { display: block; height: 40px; width: 90%; text-align: center; border: 1px; margin: auto; margin-bottom: 0px; align-content: end; font-size: 24px; font-family: sans-serif; color: var(--col2); }
 
