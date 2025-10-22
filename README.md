@@ -4,7 +4,7 @@
 **Description:** A simple and lightweight web-based project to manage and calculate your daily expenses.  
 You can add items with names and amounts, view them in a list, and see your total expense automatically update in real-time.
 
----
+----
 
 ## 🧭 Overview
 
